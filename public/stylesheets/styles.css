@@ -1,0 +1,18 @@
+body {
+background: rgb(255,100,129); 
+}
+h1 {
+font-size: 75px;
+}
+#commentForm {
+font-size: 20px;
+}
+#commentButton {
+margin-left: -15px;
+}
+table {
+background: white; 
+border-radius: 5px;
+}
+#mainFram {
+border: double 

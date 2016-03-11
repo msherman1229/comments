@@ -17,12 +17,12 @@ $(document).ready(function(){
      $("#getThem").click(function() {
       $.getJSON('comment', function(data) {
         console.log(data);
-        var everything = "<ul>";
+        var everything = "<table class='table'><th>Comments</th><tbody>";
         for(var comment in data) {
           com = data[comment];
-          everything += "<li>Name: " + com.Name + " -- Comment: " + com.Comment + "</li>";
+          everything += "<tr><td>Name: " + com.Name + " -- Comment: " + com.Comment + "</td></tr>";
         }
-        everything += "</ul>";
+        everything += "</tbody></table>";
         $("#comments").html(everything);
       })
     })
