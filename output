@@ -1,0 +1,52 @@
+nohup: ignoring input
+Connected
+[0mGET / [32m200 [0m8.601 ms - 598[0m
+[0mGET /javascripts/comments.js [36m304 [0m1.946 ms - -[0m
+[0mGET /favicon.ico [33m404 [0m386.719 ms - 1594[0m
+POST comment route
+{ Name: 'Mark ', Comment: 'Hey' }
+{ _id: 56e22c52ac3837501a42b88f, Comment: 'Hey', Name: 'Mark ' }
+{ _id: 56e22c52ac3837501a42b88f,
+  Comment: 'Hey',
+  Name: 'Mark ',
+  __v: 0 }
+[0mPOST /comment [32m200 [0m35.968 ms - 2[0m
+In the GET route?
+[ { __v: 0,
+    Comment: 'hello',
+    Name: 'Mark ',
+    _id: 56d87781b884365b2ba851ba },
+  { __v: 0,
+    Comment: 'Hello',
+    Name: 'Mark',
+    _id: 56e1a1c8b19171cc12b77d8f },
+  { __v: 0,
+    Comment: 'Hello',
+    Name: 'Mark',
+    _id: 56e1a1c9b19171cc12b77d90 },
+  { __v: 0,
+    Comment: 'a;dlfkj',
+    Name: 'a;dlj',
+    _id: 56e1a7ee1e01de1413e44e1f },
+  { __v: 0,
+    Comment: 'asldfkj',
+    Name: 'aldfs',
+    _id: 56e1a8d18715ab4d137eb9b1 },
+  { __v: 0,
+    Comment: 'asdf',
+    Name: 'Af',
+    _id: 56e1aa1f8ddbc6b71378fd0d },
+  { __v: 0,
+    Comment: 'asdf',
+    Name: 'asdf',
+    _id: 56e1ac08873369231449d0d0 },
+  { __v: 0,
+    Comment: 'zap',
+    Name: 'Zap',
+    _id: 56e1ac372b14a76a146af4e8 },
+  { __v: 0, Comment: 'a', Name: 'a', _id: 56e1ac5ad6235bab14e1e2ad },
+  { __v: 0,
+    Comment: 'Hey',
+    Name: 'Mark ',
+    _id: 56e22c52ac3837501a42b88f } ]
+[0mGET /comment [32m200 [0m17.135 ms - 743[0m
